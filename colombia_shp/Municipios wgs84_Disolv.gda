@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>Municipios wgs84_Disolv</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>Municipios wgs84_Disolv.shp</path>
+            </datasource>
+            <layername>Municipios wgs84_Disolv</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>NOM_MUNICI</var>
+                <var>
+                    Orden
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>DEPARTAMEN</var>
+                <var>
+                    Codigo_DAN
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>REGION</var>
+                <var>
+                    latitud
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    longitud
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>Municipios wgs84_Disolv</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>Municipios wgs84_Disolv.gal</path>
+                        <id_variable>POLY_ID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>1122</num_observations>
+                        <min_neighbors>0</min_neighbors>
+                        <max_neighbors>19</max_neighbors>
+                        <mean_neighbors>5.843137254901961</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.520778721470763</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>POLY_ID</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
